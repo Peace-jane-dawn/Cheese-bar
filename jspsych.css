@@ -1,0 +1,43 @@
+/* 页面整体样式设置 */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Microsoft Himalaya', sans-serif;
+}
+
+/* 容器样式 */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* jsPsych 显示元素样式 */
+.jspsych-display-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Microsoft Himalaya';
+}
+
+/* 响应式设置 */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .jspsych-display-element {
+        font-size: 24px;
+    }
+}
