@@ -8,7 +8,7 @@
 
 ## 二、准备工作
 
-​      JsPsych = js + psych，其中js代表JavaScript，psych则代表心理学。JsPsych是一个编写在线心理学实验的工具包，它写出来的实验程序是运行在浏览器中的。如果我们需要使用JsPsych设计一个完整的心理学实验，需要准备一下几个文件：
+​      JsPsych = js + psych，其中js代表JavaScript，psych则代表心理学。JsPsych是一个编写在线心理学实验的工具包，它写出来的实验程序是运行在浏览器中的。如果我们需要使用JsPsych设计一个完整的心理学实验，需要准备以下几个文件：
 
 ### 所需文件
 
